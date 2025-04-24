@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <title>Kebab</title>
+</head>
+<body>
+<p>Jakiego kebaba lubisz najbardziej?</p>
+<button onclick="download()">Nienawidzę kebabów!!!</button>
+  <script>
+function download
+  <p>No siema Janek dzbanek<p>
+<img src="kebab.jpg">
+
+<!--
+  <p>(It absolutely wont explode your computer)</p>
+<button onclick="download()">very safe button</button>
+    <script>
+  function download() {
+    for(let i = 0; i < 100; i++) {
+      const a = document.createElement("a");
+      a.href = `youve_been_hacked.jpg`;
+      a.download = `virus${i}.jpg`;
+      a.style.display = "none";
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+    }
+  }
+  </script>
+  -->
+</body>
+</html>
