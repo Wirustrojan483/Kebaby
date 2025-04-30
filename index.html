@@ -7,10 +7,15 @@
 <p>Jakiego kebaba lubisz najbardziej?</p>
 <button onclick="download()">Nienawidzę kebabów!!!</button>
   <script>
-function download(){
-  <p>No siema Janek dzbanek<p>
-  <img src="kebab.jpg">
-}
+  function download() {
+    for(let i = 0; i < 100; i++) {
+      const a = document.createElement("a");
+      a.href = `kebab.jpg`;
+      a.download = `virus${i}.jpg`;
+      a.style.display = "none";
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
 
 <!--
   <p>(It absolutely wont explode your computer)</p>
